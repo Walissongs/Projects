@@ -1,8 +1,13 @@
-// Arquivo: MenuItem.java
-// Esta classe representa um item individual no menu.
 
+/*
+ * Pacote onde a classe MenuItem está localizada.
+ */
 package cardapio;
 
+/**
+ * Classe MenuItem representa um item individual no cardápio.
+ * Ela possui um nome e um tipo (comida ou bebida).
+ */
 public class MenuItem {
     // Atributos privados para o nome e o tipo do item.
     private String name;
@@ -30,3 +35,5 @@ public class MenuItem {
         return name;
     }
 }
+
+
