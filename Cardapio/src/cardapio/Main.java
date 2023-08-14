@@ -1,11 +1,11 @@
-// Arquivo: Main.java
-// Este é o ponto de entrada da aplicação.
-
-// Importa a classe SwingUtilities, que fornece utilitários para trabalhar com a interface gráfica Swing.
-import javax.swing.SwingUtilities;
-
-// Importa a classe RestaurantAPP do pacote cardapio.
+/*
+ * Pacote onde a classe Main está localizada.
+ */
+package cardapio;
 import cardapio.RestaurantAPP;
+
+// Importação da classe SwingUtilities para trabalhar com a interface gráfica.
+import javax.swing.SwingUtilities;
 
 // Classe Main contendo o método main que inicia a aplicação.
 public class Main {
