@@ -1,11 +1,19 @@
-// Arquivo: Menu.java
-// Esta classe representa o menu diário do restaurante.
 
+/*
+ * Pacote onde a classe Menu está localizada.
+ */
+package cardapio;
+
+// Importações de classes necessárias.
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Classe Menu representa o cardápio diário do restaurante.
+ * Ela gerencia os itens do menu para cada dia da semana.
+ */
 public class Menu {
     // Mapa que associa cada dia da semana a uma lista de itens do menu.
     private Map<String, List<MenuItem>> menuItems;
@@ -28,7 +36,7 @@ public class Menu {
     public List<MenuItem> getMenuItems(int day) {
         return menuItems.get(getDayName(day));
     }
-    
+
     // Retorna o nome do dia da semana com base no número do dia.
     private String getDayName(int day) {
         switch (day) {
